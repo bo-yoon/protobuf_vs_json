@@ -51,11 +51,9 @@ message Person {
 
 ```
 
-생성 확인
 
-<img src="README.assets/image-20220415231351345.png" alt="image-20220415231351345" style="zoom:50%;" />
 
-<img src="README.assets/image-20220415231309296.png" alt="image-20220415231309296" style="zoom:50%;" />
+![image-20220415231611266](README.assets/image-20220415231611266.png)
 
 
 
