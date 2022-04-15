@@ -9,20 +9,6 @@
 
 brew install protobuf
 
-#  /simple.proto 파일
-syntax = "proto3";
-
-package example.simple;
-
-message SimpleMessage {
-  int32 id = 1;
-  bool is_simple = 2;
-  string name = 3;
-  repeated int32 sample_list = 4;
-}
-
-# 빌드
-protoc -I=proto --java_out=java simple.proto
   
 ```
 
