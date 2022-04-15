@@ -3,6 +3,28 @@
 
 목적 : Serialization 관점에서 protobuf 와 json 중 어느것이 더 빠른 지 비교하는 테스트
 
+```bash
+
+# 맥북에 protobuf 컴파일러 설치
+
+brew install protobuf
+
+#  /simple.proto 파일
+syntax = "proto3";
+
+package example.simple;
+
+message SimpleMessage {
+  int32 id = 1;
+  bool is_simple = 2;
+  string name = 3;
+  repeated int32 sample_list = 4;
+}
+
+# 빌드
+protoc -I=proto --java_out=java simple.proto
+  
+```
 
 
 ### 작업 
